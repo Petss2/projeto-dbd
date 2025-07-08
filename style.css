@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    ---fonte1: "Arial";
+    ---fonte2: "Verdana";
+    ---fonte3: "Permanent Marker", cursive;
+}
+
+html, body {
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(imagens/EGS_DeadbyDaylight_BehaviourInteractive_S1_2560x1440-a32581cf9948a9a2e24b2ff15c1577c7.jfif);
+    background-attachment: fixed;
+    
+}
+
+header {
+    background-color: black;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header > h1 {
+    color: rgb(255, 255, 255);
+    font-family: var(---fonte3); 
+    font-size: 50px;
+    ont-weight: bold;
+}
+
+header > p {
+    color: white;
+    font-family: var(---fonte2);
+    
+}
+
+section {
+    background-color: rgba(253, 253, 253, 0.025);
+    padding: 40px;
+    max-width: 80vw;
+    margin: auto;
+}
+
+section > h2 {
+    background-color: red;
+    border-radius: 10px 10px;
+    text-align: center;
+    font-family: var(---fonte3);
+    font-size: 2em;
+    box-shadow: 2px 5px 3px 2px rgba(0, 0, 0, 0.39);
+}
+
+section > p {
+    background-color: rgba(0, 0, 0, 0.734);
+    color: white;
+    border-radius: 10px 10px;
+    text-align: center;
+    padding: 30px;
+    font-family: var(---fonte1);
+    box-shadow: 2px 5px 3px 2px rgba(0, 0, 0, 0.39);
+    line-height: 1.5em;
+}
+
+section > ul {
+    background-image: linear-gradient(to right, #ffffff, #000000);
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+section  li {
+    font-family: var(---fonte3);
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+}
+
+footer > p {
+    padding-left: 100px;
+    color: white;
+}
+
+footer  a {
+    color: rgb(255, 25, 0);
+    text-decoration: none;
+    transition: text-decoration 0.2s ease-in-out;
+}
+
+footer  a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
